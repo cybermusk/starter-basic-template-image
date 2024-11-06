@@ -7,18 +7,16 @@ import CONFIG from '../config'
 export const Hero = () => {
   return <>
      {/* <!-- ====== Hero Section Start --> */}
-     <div
-      id="home"
-      className="relative overflow-hidden bg-custom-img bg-cover bg-center w-full h-screen flex items-center justify-center"
-    >
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4">
-            {/* 第19行源代码：className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center  mt-[60px]" */}
-            <div
-              className="hero-content mx-auto max-w-[780px] text-center  mt-[60px]"
-              data-wow-delay=".2s"
-            >
+    </* 由此开始 */>
+      <div className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/images/starter/custom-images/background1.webp)' }}>
+        <div className="container relative z-10">
+          <div className="-mx-4 flex flex-wrap items-center">
+            <div className="w-full px-4">
+              <div
+                className="hero-content mx-auto max-w-[780px] text-center mt-[60px]"
+                data-wow-delay=".2s"
+              >
+    </* 到此结束 */>
               {/* 主标题 */}
               <h1
                 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
