@@ -19,7 +19,7 @@ export const Hero = () => {
     </* 到此结束 */>
     </* ----------------------------------- */>
     </* Mobile和PC图片版本 由此开始>
-      <div className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-cover bg-center bg-[url('/images/starter/custom-images/sugarbaby1.webp')] md:bg-[url('/images/starter/custom-images/sugarbaby.webp')]">
+      <div className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-cover bg-center bg-[url('/images/starter/custom-images/Mobile.webp')] md:bg-[url('/images/starter/custom-images/PC.webp')]">
         <div className="container relative z-10">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
