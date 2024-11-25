@@ -17,6 +17,17 @@ export const Hero = () => {
                 data-wow-delay=".2s"
               >
     </* 到此结束 */>
+    </* ----------------------------------- */>
+    </* Mobile和PC图片版本 由此开始>
+      <div className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-cover bg-center bg-[url('/images/starter/custom-images/sugarbaby1.webp')] md:bg-[url('/images/starter/custom-images/sugarbaby.webp')]">
+        <div className="container relative z-10">
+          <div className="-mx-4 flex flex-wrap items-center">
+            <div className="w-full px-4">
+              <div
+                className="hero-content mx-auto max-w-[780px] text-center mt-[60px]"
+                data-wow-delay=".2s"
+              >
+    </* 到此结束 */>
               {/* 主标题 */}
               <h1
                 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
