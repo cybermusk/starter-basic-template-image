@@ -179,21 +179,21 @@ const CONFIG = {
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: 'Send Wink for Free',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    'All members can send free winks. This is a quick way to flirt and attract the other person. If you are interested in someone, just send him a wink, and he will see your profile in the message list and reply to you.',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: 'All Members Verified',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    'You can trust that all members are verified, ensuring a safe and genuine experience. Each profile is authenticated, allowing you to connect with real individuals who are serious about building meaningful relationships. With this level of assurance, you can focus on finding your perfect match with confidence.',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: 'Spark Matching',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    'With Spark, you can quickly find the right match. In Spark, you can like, skip, slide into the heart-shaped pile, and so on for the potential matches shown to you by the system. Once both parties like it, an email will be sent to let both parties know. This greatly improves your matching efficiency.',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: '24 / 7 LIVE SUPPORT TEAM',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    'Our 24/7 live support team is always here for you, ensuring that you have assistance whenever you need it. Whether you have questions or need guidance, our dedicated professionals are ready to help you navigate your journey, making your experience seamless and enjoyable.',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
